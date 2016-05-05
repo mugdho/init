@@ -1,4 +1,3 @@
-read -r -d '' TEXT << EOM
 # Don't put duplicate lines in the .bash_history
 export HISTCONTROL=ignoredups
 # Adjust LINES and COLUMNS in case we resize the window
@@ -30,7 +29,3 @@ export LS_COLORS"
 export PAGER=less
 export LESS="-x4 -M -X -F -Q -W"
 alias ls='ls --color'
-EOM
-
-echo "$TEXT" >> ~/.bashrc
-echo "$TEXT" >> ~/.profile
