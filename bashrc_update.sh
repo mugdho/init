@@ -34,5 +34,6 @@ export LESS="-x4 -M -X -F -Q -W"
 alias ls='ls --color'
 EOM
 
-echo "$TEXT"
+echo "$TEXT" >> ~/.bashrc
+echo "$TEXT" >> ~/.profile
 
